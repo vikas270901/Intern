@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Semantic UI</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+ 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+</head>
+<body style="background: #F6F6F6">
+<div class="ui inverted menu" style="position: sticky; top: 0; z-index: +1;">
+	<div class="ui container">
+	<a href="/" class="item"><i class="in flag"></i></a>
+	<a  href="/" class="item"><b>The Login</b></a>
+	<a href="#" class="item">About</a>
+	<a href="#" class="item">Hire Me</a>
+	<div class="right menu">
+	</div>
+	</div>
+</div> 
+<div class="ui container" style="width:60%;">
+<h1 style="color:grey;"><u>Welcome to Login</u></h1>
+<b><a href="#">Admin LOGIN Here For Secret Page</a></b><br><br>
+<h4>Admin Username: Admin</h4>
+<h4>Admin Password: 123</h4>
+<div class="ui form" style="width:50%;">
+<form action="/login" method="POST">
+<input type="text" name="username" placeholder="Username"><br><br>
+<input type="password" name="password" placeholder="Password"><br><br>
+<button class="ui basic button">Login</button>
+</form>
+</div>
+</div>
+</body>
+</html>
